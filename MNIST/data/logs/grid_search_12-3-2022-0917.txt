@@ -1,0 +1,1079 @@
+MODEL 1: ACCURACY: 0.98286
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 2: ACCURACY: 0.98381
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 3: ACCURACY: 0.98310
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 4: ACCURACY: 0.98476
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 5: ACCURACY: 0.98690
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 6: ACCURACY: 0.98571
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 7: ACCURACY: 0.98452
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 8: ACCURACY: 0.98143
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 9: ACCURACY: 0.97405
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 10: ACCURACY: 0.98333
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 11: ACCURACY: 0.98643
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 12: ACCURACY: 0.98619
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 13: ACCURACY: 0.97381
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 14: ACCURACY: 0.97381
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 15: ACCURACY: 0.98071
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 16: ACCURACY: 0.98381
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 17: ACCURACY: 0.98452
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 18: ACCURACY: 0.98190
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 19: ACCURACY: 0.98310
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 20: ACCURACY: 0.98333
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 21: ACCURACY: 0.98405
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 22: ACCURACY: 0.98095
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 23: ACCURACY: 0.98476
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 24: ACCURACY: 0.98595
+	OPTIMIZER: adam(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 25: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 26: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 27: ACCURACY: 0.81310
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 28: ACCURACY: 0.96333
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 29: ACCURACY: 0.74524
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 30: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 31: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 32: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 33: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 34: ACCURACY: 0.96167
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 35: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 36: ACCURACY: 0.10119
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 37: ACCURACY: 0.67524
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 38: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 39: ACCURACY: 0.29738
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 40: ACCURACY: 0.89881
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 41: ACCURACY: 0.94000
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 42: ACCURACY: 0.96929
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 43: ACCURACY: 0.62571
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 44: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 45: ACCURACY: 0.25143
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 46: ACCURACY: 0.89214
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 47: ACCURACY: 0.77976
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 48: ACCURACY: 0.94167
+	OPTIMIZER: adam(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 49: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 50: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 51: ACCURACY: 0.10167
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 52: ACCURACY: 0.28762
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 53: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 54: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 55: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 56: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 57: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 58: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 59: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 60: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 61: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 62: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 63: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 64: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 65: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 66: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 67: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 68: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 69: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 70: ACCURACY: 0.09857
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 71: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 72: ACCURACY: 0.12071
+	OPTIMIZER: adam(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 73: ACCURACY: 0.97571
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 74: ACCURACY: 0.98262
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 75: ACCURACY: 0.98286
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 76: ACCURACY: 0.98143
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 77: ACCURACY: 0.98476
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 78: ACCURACY: 0.98786
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 79: ACCURACY: 0.97905
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 80: ACCURACY: 0.41048
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 81: ACCURACY: 0.97738
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 82: ACCURACY: 0.98214
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 83: ACCURACY: 0.97881
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 84: ACCURACY: 0.98571
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 85: ACCURACY: 0.97405
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 86: ACCURACY: 0.96881
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 87: ACCURACY: 0.97881
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 88: ACCURACY: 0.95405
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 89: ACCURACY: 0.97452
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 90: ACCURACY: 0.97833
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 91: ACCURACY: 0.95524
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 92: ACCURACY: 0.97595
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 93: ACCURACY: 0.97976
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 94: ACCURACY: 0.97905
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 95: ACCURACY: 0.97429
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 96: ACCURACY: 0.98024
+	OPTIMIZER: rmsprop(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 97: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 98: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 99: ACCURACY: 0.19810
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 100: ACCURACY: 0.95429
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 101: ACCURACY: 0.31214
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 102: ACCURACY: 0.30857
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 103: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 104: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 105: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 106: ACCURACY: 0.97048
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 107: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 108: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 109: ACCURACY: 0.94905
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 110: ACCURACY: 0.92976
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 111: ACCURACY: 0.21619
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 112: ACCURACY: 0.96095
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 113: ACCURACY: 0.93929
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 114: ACCURACY: 0.86286
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 115: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 116: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 117: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 118: ACCURACY: 0.93762
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 119: ACCURACY: 0.71762
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 120: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 121: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 122: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 123: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 124: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 125: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 126: ACCURACY: 0.10119
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 127: ACCURACY: 0.10167
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 128: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 129: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 130: ACCURACY: 0.10167
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 131: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 132: ACCURACY: 0.10119
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 133: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 134: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 135: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 136: ACCURACY: 0.15952
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 137: ACCURACY: 0.12214
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 138: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 139: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 140: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 141: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 142: ACCURACY: 0.12071
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 143: ACCURACY: 0.10167
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 144: ACCURACY: 0.10167
+	OPTIMIZER: rmsprop(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 145: ACCURACY: 0.99000
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 146: ACCURACY: 0.99024
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 147: ACCURACY: 0.98667
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 148: ACCURACY: 0.98833
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 149: ACCURACY: 0.98429
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 150: ACCURACY: 0.98762
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 151: ACCURACY: 0.98881
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 152: ACCURACY: 0.98643
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 153: ACCURACY: 0.98976
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 154: ACCURACY: 0.98857
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 155: ACCURACY: 0.98881
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 156: ACCURACY: 0.98881
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 157: ACCURACY: 0.98476
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 158: ACCURACY: 0.98357
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 159: ACCURACY: 0.98548
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 160: ACCURACY: 0.98238
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 161: ACCURACY: 0.98357
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 162: ACCURACY: 0.98357
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 163: ACCURACY: 0.98333
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 164: ACCURACY: 0.98643
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 165: ACCURACY: 0.98548
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 166: ACCURACY: 0.98357
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 167: ACCURACY: 0.98000
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 168: ACCURACY: 0.98476
+	OPTIMIZER: sgd(learning_rate=0.009)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 169: ACCURACY: 0.99024
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 170: ACCURACY: 0.98905
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 171: ACCURACY: 0.99167
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 172: ACCURACY: 0.99119
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 173: ACCURACY: 0.99024
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 174: ACCURACY: 0.98952
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 175: ACCURACY: 0.99143
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 176: ACCURACY: 0.99095
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 177: ACCURACY: 0.99214
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 178: ACCURACY: 0.99167
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 179: ACCURACY: 0.99238
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 180: ACCURACY: 0.98976
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 181: ACCURACY: 0.98881
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 182: ACCURACY: 0.98690
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 183: ACCURACY: 0.98667
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 184: ACCURACY: 0.98857
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 185: ACCURACY: 0.98690
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 186: ACCURACY: 0.98667
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 187: ACCURACY: 0.98738
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 188: ACCURACY: 0.99000
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 189: ACCURACY: 0.98929
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 190: ACCURACY: 0.98738
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 191: ACCURACY: 0.98929
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 192: ACCURACY: 0.98929
+	OPTIMIZER: sgd(learning_rate=0.03)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 193: ACCURACY: 0.99214
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 194: ACCURACY: 0.99214
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 195: ACCURACY: 0.99071
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 196: ACCURACY: 0.99167
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 197: ACCURACY: 0.98786
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 198: ACCURACY: 0.99238
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 199: ACCURACY: 0.99214
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 200: ACCURACY: 0.99095
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 201: ACCURACY: 0.99238
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 202: ACCURACY: 0.99071
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 203: ACCURACY: 0.99262
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 204: ACCURACY: 0.99262
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 205: ACCURACY: 0.98976
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 206: ACCURACY: 0.98690
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 207: ACCURACY: 0.98524
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 208: ACCURACY: 0.98667
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 209: ACCURACY: 0.98929
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 210: ACCURACY: 0.98738
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(32, 7), (64, 4), (128, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
+
+MODEL 211: ACCURACY: 0.99048
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256, 64]	DROPOUT: 0.2
+
+MODEL 212: ACCURACY: 0.99024
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 256, 32]	DROPOUT: 0.2
+
+MODEL 213: ACCURACY: 0.99143
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 128, 32]	DROPOUT: 0.2
+
+MODEL 214: ACCURACY: 0.99024
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [1024, 256]	DROPOUT: 0.2
+
+MODEL 215: ACCURACY: 0.99071
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [512, 64]	DROPOUT: 0.2
+
+MODEL 216: ACCURACY: 0.99048
+	OPTIMIZER: sgd(learning_rate=0.09)                 
+	CONV : [(64, 7), (128, 4), (256, 2)]	BATCH_NORM: True
+	DENSE: [256, 32]	DROPOUT: 0.2
